@@ -15,7 +15,11 @@
     <%= link_to "Log Out", signout_path %>
   <% else %>
     <%= link_to "Log In", signin_path %>
+    <%= link_to "sign up", new_user_path %>
+    
   <% end %>
+     
+
     <%= yield %>
   </body>
 </html>
